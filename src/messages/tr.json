@@ -1,0 +1,666 @@
+{
+  "common": {
+    "title": "Başlık",
+    "save": "Kaydet",
+    "saving": "Kaydediliyor...",
+    "generate": "Yapay Zeka ile Oluştur",
+    "generating": "Oluşturuluyor...",
+    "categories": "Kategoriler",
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "success": "İşlem başarılı",
+    "viewAll": "Tümünü Görüntüle",
+    "search": "Ara...",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "actions": "İşlemler",
+    "details": "Detaylar",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "page": "Sayfa"
+  },
+  "seo": {
+    "pageTitle": "SEO İçerik Yönetimi",
+    "pageDescription": "Video içeriğinizi daha iyi görünürlük için optimize edin",
+    "videoPreview": "Video Önizleme",
+    "videoSelection": "Video Seçimi",
+    "chooseVideo": "Optimize edilecek bir video seçin",
+    "seoContent": "SEO İçeriği",
+    "optimizeContent": "İçeriğinizi arama motorları için optimize edin",
+    "title": "Başlık",
+    "characters": "karakter",
+    "titlePlaceholder": "SEO dostu bir başlık girin",
+    "description": "Açıklama",
+    "descriptionPlaceholder": "Detaylı bir açıklama girin",
+    "keywords": "Anahtar Kelimeler",
+    "keywordsPlaceholder": "Virgülle ayrılmış anahtar kelimeler girin",
+    "approvals": "SEO Onayları"
+  },
+  "settings": {
+    "pageTitle": "Ayarlar",
+    "pageDescription": "Uygulama tercihlerinizi yönetin",
+    "saveSuccess": "Ayarlar başarıyla kaydedildi",
+    "saveError": "Ayarlar kaydedilirken hata oluştu",
+    "language": {
+      "title": "Dil Ayarları",
+      "description": "Uygulama arayüzünün dilini değiştirin",
+      "selectLabel": "Arayüz Dili",
+      "selectPlaceholder": "Bir dil seçin"
+    },
+    "resetDefaults": "Varsayılanlara Sıfırla",
+    "saveChanges": "Değişiklikleri Kaydet",
+    "saved": "Ayarlar kaydedildi",
+    "resetToDefaults": "Ayarlar varsayılanlara sıfırlandı",
+    "tabs": {
+      "general": "Genel",
+      "appearance": "Görünüm",
+      "notifications": "Bildirimler",
+      "privacy": "Gizlilik",
+      "video": "Video",
+      "storage": "Depolama",
+      "api": "API",
+      "account": "Hesap"
+    },
+    "video": {
+      "title": "Video Ayarları",
+      "description": "Video işleme ve görüntüleme ayarlarını yapılandırın",
+      "source": {
+        "title": "Video Kaynak Ayarları",
+        "description": "Videoların nereden alınacağını yapılandırın",
+        "type": "Kaynak Türü",
+        "default": "Varsayılan API",
+        "pexels": "Pexels API",
+        "custom": "Özel API",
+        "customUrl": "Özel API URL",
+        "urlPlaceholder": "Özel API URL'sini girin",
+        "testConnection": "Bağlantıyı Test Et",
+        "testing": "Test ediliyor...",
+        "testSuccess": "Bağlantı başarılı",
+        "testError": "Bağlantı başarısız",
+        "saveSuccess": "Video kaynak ayarları kaydedildi",
+        "saveError": "Video kaynak ayarları kaydedilemedi",
+        "loadError": "Video kaynak ayarları yüklenemedi"
+      },
+      "processing": {
+        "title": "İşleme Ayarları",
+        "description": "Videoların nasıl işleneceğini yapılandırın",
+        "quality": "Video Kalitesi",
+        "format": "Çıktı Formatı",
+        "compression": "Sıkıştırma Seviyesi"
+      }
+    },
+    "videoSource": {
+      "title": "Video Kaynağı",
+      "description": "Video kaynaklarını yapılandırın"
+    },
+    "storage": {
+      "title": "Depolama Ayarları",
+      "description": "Depolama tercihlerinizi yapılandırın",
+      "content": "Depolama içeriği burada görüntülenir"
+    },
+    "api": {
+      "title": "API Ayarları",
+      "description": "API bağlantılarını yapılandırın",
+      "content": "API içeriği burada görüntülenir"
+    },
+    "account": {
+      "title": "Hesap Ayarları",
+      "description": "Hesap bilgilerinizi yönetin",
+      "content": "Hesap içeriği burada görüntülenir"
+    },
+    "general": {
+      "title": "Genel Ayarlar",
+      "description": "Temel uygulama ayarlarını yapılandırın",
+      "language": {
+        "title": "Dil",
+        "description": "Uygulama dilini değiştirin",
+        "selectLabel": "Arayüz Dili"
+      },
+      "resetSettings": "Varsayılan Ayarlara Sıfırla",
+      "exportSettings": "Ayarları Dışa Aktar",
+      "importSettings": "Ayarları İçe Aktar"
+    },
+    "appearance": {
+      "title": "Görünüm Ayarları",
+      "description": "Uygulamanın görünümünü özelleştirin",
+      "theme": {
+        "title": "Tema",
+        "description": "Açık ve koyu mod arasında seçim yapın",
+        "light": "Açık",
+        "dark": "Koyu",
+        "system": "Sistem Varsayılanı"
+      },
+      "fontSize": {
+        "title": "Yazı Boyutu",
+        "description": "Uygulama genelinde metin boyutunu ayarlayın",
+        "small": "Küçük",
+        "medium": "Orta",
+        "large": "Büyük"
+      },
+      "animations": {
+        "title": "Animasyonlar",
+        "description": "Arayüz animasyonlarını etkinleştirin veya devre dışı bırakın",
+        "enabled": "Etkin",
+        "reduced": "Azaltılmış",
+        "disabled": "Devre Dışı"
+      }
+    }
+  },
+  "sidebar": {
+    "dashboard": "Kontrol Paneli",
+    "videos": "Videolar",
+    "seo": "SEO İçeriği",
+    "seoApprovals": "SEO Onayları",
+    "subtitles": "Altyazılar",
+    "admin": "Yönetici Paneli",
+    "users": "Kullanıcılar",
+    "watermarks": "Filigranlar",
+    "settings": "Ayarlar",
+    "adminPanel": "Yönetici Paneli",
+    "videoManagement": "Video Yönetimi"
+  },
+  "status": {
+    "pending": "beklemede",
+    "processed": "işlendi"
+  },
+  "home": {
+    "nav": {
+      "home": "Ana Sayfa",
+      "dashboard": "Kontrol Paneli"
+    },
+    "hero": {
+      "title": "Video Yönetim Sistemi",
+      "subtitle": "Yapay zeka ile videolarınızı yönetin, işleyin ve optimize edin",
+      "cta": "Başlayın",
+      "login": "Giriş Yap"
+    },
+    "features": {
+      "title": "Özellikler",
+      "videoProcessing": {
+        "title": "Video İşleme",
+        "description": "Filigran ve altyazılarla video işleme"
+      },
+      "seoOptimization": {
+        "title": "SEO Optimizasyonu",
+        "description": "Yapay zeka destekli SEO içerik üretimi"
+      },
+      "subtitleManagement": {
+        "title": "Altyazı Yönetimi",
+        "description": "Kolay altyazı oluşturma ve yönetimi"
+      }
+    },
+    "footer": {
+      "copyright": "© 2024 Vamos. Tüm hakları saklıdır."
+    }
+  },
+  "seoApprovals": {
+    "pageTitle": "SEO Onay Kuyruğu",
+    "pageDescription": "Editörler tarafından gönderilen SEO içeriğini inceleyin ve onaylayın",
+    "pendingApprovals": "Bekleyen Onaylar",
+    "approvedContent": "Onaylanmış İçerik",
+    "rejectedContent": "Reddedilmiş İçerik",
+    "noApprovals": "Bekleyen onay bulunamadı",
+    "videoTitle": "Video Başlığı",
+    "editor": "Editör",
+    "submittedDate": "Gönderilme Tarihi",
+    "actions": "İşlemler",
+    "viewDetails": "Detayları Görüntüle",
+    "approve": "Onayla",
+    "approving": "Onaylanıyor...",
+    "reject": "Reddet",
+    "rejecting": "Reddediliyor...",
+    "approveSuccess": "SEO içeriği başarıyla onaylandı",
+    "rejectSuccess": "SEO içeriği başarıyla reddedildi",
+    "actionError": "İşleminiz sırasında bir hata oluştu",
+    "filterAll": "Tümü",
+    "filterPending": "Bekleyen",
+    "filterApproved": "Onaylanmış",
+    "filterRejected": "Reddedilmiş",
+    "searchPlaceholder": "Başlık veya editör ile ara",
+    "details": {
+      "title": "SEO İçerik Detayları",
+      "originalTitle": "Orijinal Başlık",
+      "proposedTitle": "Önerilen Başlık",
+      "originalDescription": "Orijinal Açıklama",
+      "proposedDescription": "Önerilen Açıklama",
+      "originalKeywords": "Orijinal Anahtar Kelimeler",
+      "proposedKeywords": "Önerilen Anahtar Kelimeler",
+      "originalCategories": "Orijinal Kategoriler",
+      "proposedCategories": "Önerilen Kategoriler",
+      "editorNotes": "Editör Notları",
+      "addFeedback": "Geri Bildirim Ekle",
+      "feedbackPlaceholder": "Editör için geri bildirim sağlayın",
+      "submitFeedback": "Geri Bildirimi Gönder",
+      "submittingFeedback": "Gönderiliyor...",
+      "feedbackSuccess": "Geri bildirim başarıyla gönderildi",
+      "feedbackError": "Geri bildirim gönderilirken hata oluştu"
+    },
+    "categoryRecommendation": "Önerilen kategorileri seçin. Birden fazla kategori seçebilirsiniz."
+  },
+  "videoPreview": {
+    "adminOnly": "Bu içeriği yalnızca adminler görüntüleyebilir",
+    "embedTitle": "Video Önizleme"
+  },
+  "dashboard": {
+    "title": "Kontrol Paneli",
+    "welcome": "Tekrar hoş geldiniz",
+    "summary": "İşte aktivitelerinizin özeti",
+    "recentVideos": {
+      "title": "Son Videolar",
+      "description": "En son yüklediğiniz videolar"
+    },
+    "pendingTasks": "Bekleyen Görevler",
+    "statistics": "İstatistikler",
+    "totalVideos": "Toplam Video",
+    "processedVideos": "İşlenmiş Videolar",
+    "pendingVideos": "Bekleyen Videolar",
+    "viewAll": "Tümünü Gör",
+    "noVideos": "Video bulunamadı",
+    "quickActions": {
+      "title": "Hızlı İşlemler",
+      "uploadVideo": "Video Yükle",
+      "uploadVideoDesc": "Hesabınıza yeni bir video yükleyin",
+      "generateSeo": "SEO Oluştur",
+      "generateSeoDesc": "Videolarınız için SEO içeriği oluşturun",
+      "reviewSeo": "SEO İnceleme",
+      "reviewSeoDesc": "SEO içeriğini inceleyin ve onaylayın"
+    },
+    "stats": {
+      "totalVideos": "Toplam Video",
+      "totalVideosDesc": "Hesabınızdaki toplam video sayısı",
+      "processed": "İşlenmiş Videolar",
+      "processedDesc": "Tamamen işlenmiş videolar",
+      "pendingApprovals": "Bekleyen Onaylar",
+      "pendingApprovalsDesc": "Onay bekleyen videolar",
+      "activeUsers": "Aktif Kullanıcılar",
+      "activeUsersDesc": "Son 30 günde aktif olan kullanıcılar"
+    },
+    "tabs": {
+      "overview": "Genel Bakış",
+      "analytics": "Analitik"
+    },
+    "analytics": {
+      "title": "Analitik",
+      "description": "Videolarınız için detaylı analitikleri görüntüleyin",
+      "comingSoon": "Analitikler yakında"
+    }
+  },
+  "videos": {
+    "title": "Video Yönetimi",
+    "description": "Videolarınızı yönetin ve analizleri görüntüleyin",
+    "thumbnail": "Küçük Resim",
+    "duration": "Süre",
+    "status": {
+      "status": "Durum",
+      "ready": "Hazır",
+      "processing": "İşleniyor",
+      "error": "Hata",
+      "pending": "Beklemede",
+      "processed": "İşlendi",
+      "completed": "Tamamlandı"
+    },
+    "createdAt": "Oluşturulma Tarihi",
+    "actions": {
+      "edit": "Videoyu Düzenle",
+      "delete": "Videoyu Sil",
+      "view": "Videoyu Görüntüle"
+    },
+    "messages": {
+      "deleteConfirm": "Bu videoyu silmek istediğinizden emin misiniz?",
+      "deleteSuccess": "Video başarıyla silindi",
+      "deleteError": "Video silinirken hata oluştu",
+      "editSuccess": "Video başarıyla güncellendi",
+      "editError": "Video güncellenirken hata oluştu"
+    },
+    "openInNewTab": "Yeni Sekmede Aç",
+    "edit": "Düzenle",
+    "delete": {
+      "title": "Videoyu Sil",
+      "confirm": "Bu videoyu silmek istediğinizden emin misiniz?",
+      "success": "Video başarıyla silindi",
+      "error": "Video silinirken hata oluştu"
+    },
+    "detail": {
+      "title": "Video Detayları",
+      "titlePlaceholder": "Video başlığını düzenle",
+      "save": "Kaydet",
+      "cancel": "İptal"
+    },
+    "management": {
+      "title": "Video Yönetimi",
+      "description": "Videolarınızı yükleyin, işleyin ve yönetin",
+      "search": "Video ara...",
+      "noResults": "Video bulunamadı",
+      "loading": "Videolar yükleniyor...",
+      "filter": "Filtrele",
+      "sortBy": "Sırala",
+      "itemsPerPage": "Sayfa başına video"
+    },
+    "upload": {
+      "title": "Video Yükle",
+      "description": "Dosyadan veya URL'den video yükleyin",
+      "fileTab": "Dosyadan Yükle",
+      "urlTab": "URL ile Yükle",
+      "dragDrop": "Videonuzu buraya sürükleyin",
+      "browseFiles": "veya dosya seçmek için tıklayın",
+      "upload": "Videoyu Yükle",
+      "uploading": "Yükleniyor...",
+      "clear": "Temizle",
+      "success": "Video başarıyla yüklendi",
+      "invalidType": "Geçersiz dosya türü. Lütfen bir video dosyası yükleyin",
+      "videoUrl": "Video URL'si",
+      "videoTitle": "Video Başlığı",
+      "titlePlaceholder": "Videonuz için bir başlık girin",
+      "processUrl": "URL'den İşle",
+      "processing": "İşleniyor...",
+      "urlSuccess": "URL'den video başarıyla işlendi",
+      "urlError": "Lütfen geçerli bir URL ve başlık girin",
+      "urlProcessError": "URL işlenirken bir hata oluştu"
+    },
+    "storage": {
+      "title": "Depolama İstatistikleri",
+      "description": "Depolama kullanımınızı izleyin",
+      "used": "Kullanılan Alan",
+      "total": "Toplam Alan",
+      "remaining": "Kalan Alan",
+      "usagePercent": "Kullanım Yüzdesi"
+    },
+    "analytics": {
+      "title": "Video Analizleri",
+      "description": "Videolarınızın performans metriklerini görüntüleyin",
+      "views": "Görüntülenme",
+      "engagement": "Etkileşim",
+      "duration": "Süre",
+      "viewsToday": "Bugünkü Görüntülenmeler",
+      "viewsThisWeek": "Bu Haftaki Görüntülenmeler",
+      "viewsThisMonth": "Bu Ayki Görüntülenmeler"
+    },
+    "categories": {
+      "title": "Video Kategorileri",
+      "description": "Kategoriye göre videolar",
+      "all": "Tümü",
+      "education": "Eğitim",
+      "entertainment": "Eğlence",
+      "business": "İş",
+      "technology": "Teknoloji",
+      "other": "Diğer"
+    },
+    "view": {
+      "grid": "Izgara Görünümü",
+      "list": "Liste Görünümü"
+    },
+    "addFromUrl": "URL'den Ekle",
+    "urlPlaceholder": "Video URL'sini girin",
+    "titlePlaceholder": "Video başlığını girin",
+    "add": "Ekle",
+    "list": {
+      "empty": "Henüz video yok",
+      "error": "Videolar yüklenirken hata oluştu"
+    },
+    "filter": {
+      "all": "Tümü",
+      "pending": "Bekleyenler",
+      "processing": "İşlenenler",
+      "completed": "Tamamlananlar"
+    },
+    "sort": {
+      "newest": "En Yeni",
+      "oldest": "En Eski",
+      "title": "Başlık"
+    },
+    "copyLink": "Linki Kopyala",
+    "recentVideos": {
+      "title": "Son Videolar",
+      "description": "En son yüklediğiniz videolar",
+      "empty": "Video bulunamadı",
+      "viewAll": "Tümünü Gör"
+    },
+    "recent": {
+      "title": "Son Videolar",
+      "description": "En son yüklediğiniz videolar",
+      "empty": "Video bulunamadı",
+      "viewAll": "Tümünü Gör"
+    },
+    "processing": {
+      "title": "Video İşleme",
+      "newVideo": "Yeni Video İşle",
+      "finalize": "İşlemi Tamamla",
+      "finalizing": "Tamamlanıyor...",
+      "summary": "İşlem Özeti",
+      "completed": "Video işleme tamamlandı",
+      "completedDetails": "İşlenen Video Detayları",
+      "features": "Uygulanan Özellikler",
+      "processAnother": "Başka Video İşle",
+      "error": "Video işleme hatası",
+      "options": "İşleme Seçenekleri",
+      "maintainQuality": "Kaliteyi Koru",
+      "autoOptimize": "Otomatik Optimize Et",
+      "outputFormat": "Çıktı Formatı",
+      "selectFormat": "Format seçin"
+    },
+    "download": {
+      "title": "Videoyu İndir",
+      "started": "İndirme başlatıldı"
+    },
+    "error": {
+      "noVideo": "İşlenecek video bulunamadı"
+    },
+    "history": {
+      "title": "Video Geçmişi",
+      "empty": "Henüz işlem geçmişi bulunmuyor",
+      "all": "Tümü",
+      "processAgain": "Tekrar İşle",
+      "viewDetails": "Detayları Gör",
+      "filter": "Filtrele",
+      "dateRange": "Tarih Aralığı"
+    },
+    "noThumbnail": "Önizleme yok",
+    "source": {
+      "title": "Video Kaynağı",
+      "description": "Uygulamanın kullanacağı video kaynağını seçin",
+      "tabs": {
+        "sources": "Kaynaklar",
+        "advanced": "Gelişmiş"
+      },
+      "sourceOptions": "Kaynak Seçenekleri",
+      "sourceOptionsDescription": "Videoların nereden alınacağını seçin",
+      "default": {
+        "title": "Varsayılan Kaynak",
+        "description": "Uygulama içinde gelen örnek videolar"
+      },
+      "pexels": {
+        "title": "Pexels",
+        "description": "Pexels API üzerinden stok videolar",
+        "apiKeyLabel": "Pexels API Anahtarı",
+        "apiKeyPlaceholder": "Pexels API anahtarınızı girin",
+        "getApiKey": "Pexels API anahtarı almak için tıklayın"
+      },
+      "youtube": {
+        "title": "YouTube",
+        "description": "YouTube API üzerinden videolar",
+        "apiKeyLabel": "YouTube API Anahtarı",
+        "apiKeyPlaceholder": "YouTube API anahtarınızı girin",
+        "getApiKey": "YouTube API anahtarı almak için tıklayın"
+      },
+      "vimeo": {
+        "title": "Vimeo",
+        "description": "Vimeo API üzerinden videolar",
+        "apiKeyLabel": "Vimeo API Anahtarı",
+        "apiKeyPlaceholder": "Vimeo API anahtarınızı girin",
+        "getApiKey": "Vimeo API anahtarı almak için tıklayın"
+      },
+      "custom": {
+        "title": "Özel API",
+        "description": "Kendi video API'nizi kullanın",
+        "urlLabel": "Özel API URL",
+        "urlPlaceholder": "https://api.example.com/videos",
+        "urlDescription": "API'niz JSON formatında video verisi döndürmelidir"
+      },
+      "advanced": {
+        "title": "Gelişmiş API Ayarları",
+        "description": "API bağlantı ayarlarını yapılandırın",
+        "timeout": "Zaman Aşımı (ms)",
+        "retryCount": "Yeniden Deneme Sayısı",
+        "cacheDuration": "Önbellek Süresi (dakika)"
+      },
+      "testConnection": "Bağlantıyı Test Et",
+      "testing": "Bağlantı Test Ediliyor",
+      "connectionSuccess": "API bağlantısı başarılı",
+      "connectionError": "API bağlantısı başarısız",
+      "saved": "Video kaynağı ayarları kaydedildi",
+      "saveError": "Video kaynağı ayarları kaydedilemedi",
+      "loadError": "Video kaynağı ayarları yüklenemedi",
+      "urlRequired": "Özel API URL'si gerekli",
+      "apiKeyRequired": "API anahtarı gerekli"
+    }
+  },
+  "admin": {
+    "title": "Yönetim",
+    "metrics": {
+      "totalVideos": "Toplam Video",
+      "pendingApprovals": "Bekleyen Onaylar",
+      "recentUploads": "Son Yüklenenler",
+      "activeUsers": "Aktif Kullanıcılar"
+    },
+    "quickActions": "Hızlı İşlemler",
+    "pendingApprovals": "Bekleyen Onaylar",
+    "manageUsers": "Kullanıcıları Yönet",
+    "watermarkManagement": "Filigran Yönetimi",
+    "videoManagement": "Video Yönetimi",
+    "uploadVideo": "Yeni Video Yükle",
+    "videoList": "Video Listesi",
+    "seoContent": "SEO İçeriği",
+    "descriptionList": "Açıklama Listesi",
+    "userManagement": "Kullanıcı Yönetimi"
+  },
+  "subtitles": {
+    "title": "Altyazılar",
+    "upload": "Altyazı Yükle",
+    "edit": "Altyazı Düzenle",
+    "preview": "Önizleme",
+    "status": "Durum",
+    "file": "Altyazı Dosyası",
+    "embed": {
+      "title": "Altyazı Gömme",
+      "description": "Videonuza kalıcı olarak altyazı ekleyin.",
+      "start": "Altyazı Göm",
+      "processing": "İşleniyor...",
+      "noFile": "Altyazı dosyası seçilmedi",
+      "note": "Önemli Notlar",
+      "noteItem1": "Altyazı gömme işlemi geri alınamaz.",
+      "noteItem2": "SRT formatındaki altyazılar desteklenir.",
+      "noteItem3": "İşlem, video süresine bağlı olarak birkaç dakika sürebilir."
+    },
+    "success": {
+      "uploaded": "Altyazı dosyası yüklendi",
+      "embedded": "Altyazı başarıyla gömüldü"
+    },
+    "error": {
+      "invalidFormat": "Geçersiz altyazı formatı. Lütfen .srt dosyası yükleyin",
+      "uploadFailed": "Altyazı yükleme başarısız",
+      "embedFailed": "Altyazı gömme başarısız",
+      "noFile": "Lütfen bir altyazı dosyası seçin",
+      "noVideo": "Önce bir video yüklemelisiniz"
+    },
+    "applied": "Altyazı uygulandı"
+  },
+  "organization": {
+    "title": "Organizasyon",
+    "manageMembers": "Üyeleri Yönet",
+    "integrations": "Entegrasyonlar",
+    "createOrJoin": "Organizasyon Oluştur veya Katıl"
+  },
+  "account": {
+    "title": "Hesap",
+    "name": "Kullanıcı Adı",
+    "email": "kullanici@ornek.com",
+    "profile": "Profil",
+    "signOut": "Çıkış Yap"
+  },
+  "watermarks": {
+    "title": "Filigran Ekle",
+    "editor": {
+      "title": "Filigran Düzenleyici",
+      "description": "Videonuza eklemek için bir filigran yükleyin ve ayarlarını yapın.",
+      "selectImage": "Filigran Resmi Seçin",
+      "upload": "Resim Yükle",
+      "change": "Resmi Değiştir",
+      "position": "Filigran Konumu",
+      "opacity": "Şeffaflık",
+      "size": "Boyut"
+    },
+    "position": {
+      "topLeft": "Sol Üst",
+      "topRight": "Sağ Üst",
+      "center": "Orta",
+      "bottomLeft": "Sol Alt",
+      "bottomRight": "Sağ Alt"
+    },
+    "success": {
+      "saved": "Filigran ayarları kaydedildi"
+    },
+    "error": {
+      "noImage": "Lütfen bir filigran resmi seçin",
+      "saveFailed": "Filigran kaydedilemedi",
+      "noVideo": "Önce bir video yüklemelisiniz"
+    },
+    "applied": "Filigran uygulandı"
+  },
+  "storage": {
+    "title": "Depolama Yönetimi",
+    "used": "Kullanılan Depolama",
+    "videos": "Videolar",
+    "local": "Yerel Depolama",
+    "cloud": "Bulut Depolama",
+    "cleanup": {
+      "title": "Depolamayı Temizle",
+      "description": "Alan açmak için kullanılmayan dosyaları kaldırın"
+    },
+    "configure": "Depolamayı Yapılandır",
+    "cloudSettings": "Bulut Ayarları",
+    "error": {
+      "fetchFailed": "Depolama bilgileri alınamadı"
+    },
+    "warnings": {
+      "localNearlyFull": "Yerel depolama neredeyse dolu"
+    }
+  },
+  "processing": {
+    "title": "İşlem İzleyici",
+    "activeJobs": "Aktif İşlemler",
+    "noActiveJobs": "Aktif video işleme yok",
+    "refreshJobs": "İşlemleri Yenile",
+    "job": {
+      "cancel": "İşlemi İptal Et",
+      "restart": "İşlemi Yeniden Başlat"
+    },
+    "lastUpdated": "Son güncelleme",
+    "estimatedCompletion": "Tahmini bitiş",
+    "error": {
+      "fetchFailed": "İşlem bilgileri alınamadı"
+    },
+    "settings": {
+      "title": "İşlem Ayarları",
+      "videoQuality": "Video Kalitesi",
+      "selectQuality": "Kalite seçin",
+      "low": "Düşük",
+      "medium": "Orta",
+      "high": "Yüksek",
+      "ultra": "Ultra",
+      "outputFormat": "Çıktı Formatı",
+      "compressionLevel": "Sıkıştırma Seviyesi",
+      "compressionHint": "Daha yüksek sıkıştırma daha küçük dosya boyutu sağlar ancak kaliteyi düşürebilir",
+      "maxConcurrentJobs": "Maksimum Eşzamanlı İşlem",
+      "autoProcess": "Otomatik İşleme",
+      "autoProcessDescription": "Yüklenen videoları otomatik olarak işle",
+      "defaultWatermark": "Varsayılan Filigran",
+      "defaultWatermarkDescription": "Tüm videolara varsayılan filigran uygula"
+    },
+    "quality": {
+      "low": "Düşük",
+      "medium": "Orta",
+      "high": "Yüksek",
+      "original": "Orijinal"
+    }
+  }
+}

@@ -1,0 +1,590 @@
+{
+  "common": {
+    "title": "Title",
+    "save": "Save",
+    "saving": "Saving...",
+    "generate": "Generate with AI",
+    "generating": "Generating...",
+    "categories": "Categories",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Operation successful",
+    "viewAll": "View All",
+    "search": "Search...",
+    "edit": "Edit",
+    "delete": "Delete",
+    "actions": "Actions",
+    "details": "Details",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page"
+  },
+  "seo": {
+    "pageTitle": "SEO Content Management",
+    "pageDescription": "Optimize your video content for better visibility",
+    "videoPreview": "Video Preview",
+    "videoSelection": "Video Selection",
+    "chooseVideo": "Choose a video to optimize",
+    "seoContent": "SEO Content",
+    "optimizeContent": "Optimize your content for search engines",
+    "title": "Title",
+    "characters": "characters",
+    "titlePlaceholder": "Enter an SEO-friendly title",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter a detailed description",
+    "keywords": "Keywords",
+    "keywordsPlaceholder": "Enter keywords separated by commas",
+    "approvals": "SEO Approvals"
+  },
+  "settings": {
+    "pageTitle": "Settings",
+    "pageDescription": "Manage your application preferences",
+    "saveSuccess": "Settings saved successfully",
+    "saveError": "Failed to save settings",
+    "language": {
+      "title": "Language Settings",
+      "description": "Change the language of the application interface",
+      "selectLabel": "Interface Language",
+      "selectPlaceholder": "Select a language"
+    },
+    "resetDefaults": "Reset to Defaults",
+    "saveChanges": "Save Changes",
+    "saved": "Settings saved",
+    "resetToDefaults": "Settings reset to defaults",
+    "tabs": {
+      "general": "General",
+      "appearance": "Appearance",
+      "notifications": "Notifications",
+      "privacy": "Privacy",
+      "video": "Video",
+      "storage": "Storage",
+      "api": "API",
+      "account": "Account"
+    },
+    "video": {
+      "title": "Video Settings",
+      "description": "Configure video processing and display settings",
+      "source": {
+        "title": "Video Source Settings",
+        "description": "Configure where videos are fetched from",
+        "type": "Source Type",
+        "default": "Default API",
+        "pexels": "Pexels API",
+        "custom": "Custom API",
+        "customUrl": "Custom API URL",
+        "urlPlaceholder": "Enter custom API URL",
+        "testConnection": "Test Connection",
+        "testing": "Testing...",
+        "testSuccess": "Connection successful",
+        "testError": "Connection failed",
+        "saveSuccess": "Video source settings saved",
+        "saveError": "Failed to save video source settings",
+        "loadError": "Failed to load video source settings"
+      },
+      "processing": {
+        "title": "Processing Settings",
+        "description": "Configure how videos are processed",
+        "quality": "Video Quality",
+        "format": "Output Format",
+        "compression": "Compression Level"
+      }
+    },
+    "videoSource": {
+      "title": "Video Source",
+      "description": "Configure video sources"
+    },
+    "storage": {
+      "title": "Storage Settings",
+      "description": "Configure your storage preferences",
+      "content": "Storage content is displayed here"
+    },
+    "api": {
+      "title": "API Settings",
+      "description": "Configure API connections",
+      "content": "API content is displayed here"
+    },
+    "account": {
+      "title": "Account Settings",
+      "description": "Manage your account information",
+      "content": "Account content is displayed here"
+    },
+    "general": {
+      "title": "General Settings",
+      "description": "Configure basic application settings",
+      "language": {
+        "title": "Language",
+        "description": "Change the application language",
+        "selectLabel": "Interface Language"
+      },
+      "resetSettings": "Reset to Default Settings",
+      "exportSettings": "Export Settings",
+      "importSettings": "Import Settings"
+    },
+    "appearance": {
+      "title": "Appearance Settings",
+      "description": "Customize the look and feel of the application",
+      "theme": {
+        "title": "Theme",
+        "description": "Choose between light and dark mode",
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System Default"
+      },
+      "fontSize": {
+        "title": "Font Size",
+        "description": "Adjust the text size throughout the application",
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large"
+      },
+      "animations": {
+        "title": "Animations",
+        "description": "Enable or disable interface animations",
+        "enabled": "Enabled",
+        "reduced": "Reduced",
+        "disabled": "Disabled"
+      }
+    }
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "videos": "Videos",
+    "seo": "SEO Content",
+    "seoApprovals": "SEO Approvals",
+    "subtitles": "Subtitles",
+    "admin": "Admin Panel",
+    "users": "Users",
+    "watermarks": "Watermarks",
+    "settings": "Settings",
+    "adminPanel": "Admin Panel",
+    "videoManagement": "Video Management"
+  },
+  "status": {
+    "pending": "pending",
+    "processed": "processed"
+  },
+  "home": {
+    "nav": {
+      "home": "Home",
+      "dashboard": "Dashboard"
+    },
+    "hero": {
+      "title": "Video Management System",
+      "subtitle": "Manage, process and optimize your videos with AI",
+      "cta": "Get Started",
+      "login": "Login"
+    },
+    "features": {
+      "title": "Features",
+      "videoProcessing": {
+        "title": "Video Processing",
+        "description": "Process videos with watermarks and subtitles"
+      },
+      "seoOptimization": {
+        "title": "SEO Optimization",
+        "description": "AI-powered SEO content generation"
+      },
+      "subtitleManagement": {
+        "title": "Subtitle Management",
+        "description": "Create and manage subtitles for your videos"
+      }
+    },
+    "footer": {
+      "copyright": "© 2024 Vamos. All rights reserved."
+    }
+  },
+  "seoApprovals": {
+    "pageTitle": "SEO Approval Queue",
+    "pageDescription": "Review and approve SEO content submitted by editors",
+    "pendingApprovals": "Pending Approvals",
+    "approvedContent": "Approved Content",
+    "rejectedContent": "Rejected Content",
+    "noApprovals": "No pending approvals found",
+    "videoTitle": "Video Title",
+    "editor": "Editor",
+    "submittedDate": "Submitted",
+    "actions": "Actions",
+    "viewDetails": "View Details",
+    "approve": "Approve",
+    "approving": "Approving...",
+    "reject": "Reject",
+    "rejecting": "Rejecting...",
+    "approveSuccess": "SEO content approved successfully",
+    "rejectSuccess": "SEO content rejected successfully",
+    "actionError": "An error occurred while processing your request",
+    "filterAll": "All",
+    "filterPending": "Pending",
+    "filterApproved": "Approved",
+    "filterRejected": "Rejected",
+    "searchPlaceholder": "Search by title or editor",
+    "details": {
+      "title": "SEO Content Details",
+      "originalTitle": "Original Title",
+      "proposedTitle": "Proposed Title",
+      "originalDescription": "Original Description",
+      "proposedDescription": "Proposed Description",
+      "originalKeywords": "Original Keywords",
+      "proposedKeywords": "Proposed Keywords",
+      "originalCategories": "Original Categories",
+      "proposedCategories": "Proposed Categories",
+      "editorNotes": "Editor Notes",
+      "addFeedback": "Add Feedback",
+      "feedbackPlaceholder": "Provide feedback for the editor",
+      "submitFeedback": "Submit Feedback",
+      "submittingFeedback": "Submitting...",
+      "feedbackSuccess": "Feedback submitted successfully",
+      "feedbackError": "Failed to submit feedback"
+    },
+    "categoryRecommendation": "Select recommended categories. You can choose multiple categories."
+  },
+  "videoPreview": {
+    "adminOnly": "Only administrators can view this content",
+    "embedTitle": "Video Preview"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "summary": "Here's a summary of your activity",
+    "recentVideos": {
+      "title": "Recent Videos",
+      "description": "Your most recently uploaded videos"
+    },
+    "pendingTasks": "Pending Tasks",
+    "statistics": "Statistics",
+    "totalVideos": "Total Videos",
+    "processedVideos": "Processed Videos",
+    "pendingVideos": "Pending Videos",
+    "viewAll": "View All",
+    "noVideos": "No videos found",
+    "quickActions": {
+      "title": "Quick Actions",
+      "uploadVideo": "Upload Video",
+      "uploadVideoDesc": "Upload a new video to your account",
+      "generateSeo": "Generate SEO",
+      "generateSeoDesc": "Create SEO content for your videos",
+      "reviewSeo": "Review SEO",
+      "reviewSeoDesc": "Review and approve SEO content"
+    },
+    "stats": {
+      "totalVideos": "Total Videos",
+      "totalVideosDesc": "Total number of videos in your account",
+      "processed": "Processed Videos",
+      "processedDesc": "Videos that have been fully processed",
+      "pendingApprovals": "Pending Approvals",
+      "pendingApprovalsDesc": "Videos waiting for approval",
+      "activeUsers": "Active Users",
+      "activeUsersDesc": "Users active in the last 30 days"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "analytics": "Analytics"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "description": "View detailed analytics for your videos",
+      "comingSoon": "Analytics coming soon"
+    }
+  },
+  "admin": {
+    "title": "Administration",
+    "metrics": {
+      "totalVideos": "Total Videos",
+      "pendingApprovals": "Pending Approvals",
+      "recentUploads": "Recent Uploads",
+      "activeUsers": "Active Users"
+    },
+    "quickActions": "Quick Actions",
+    "pendingApprovals": "Pending Approvals",
+    "manageUsers": "Manage Users",
+    "watermarkManagement": "Watermark Management",
+    "videoManagement": "Video Management",
+    "uploadVideo": "Upload New Video",
+    "videoList": "Video List",
+    "seoContent": "SEO Content",
+    "descriptionList": "Description List",
+    "userManagement": "User Management"
+  },
+  "watermarks": {
+    "title": "Watermarks",
+    "editor": {
+      "title": "Watermark Editor",
+      "description": "Add a watermark to your video",
+      "selectImage": "Select Watermark Image",
+      "position": "Position",
+      "opacity": "Opacity",
+      "size": "Size",
+      "preview": "Preview",
+      "save": "Save Watermark",
+      "topLeft": "Top Left",
+      "topRight": "Top Right",
+      "bottomLeft": "Bottom Left",
+      "bottomRight": "Bottom Right",
+      "center": "Center"
+    },
+    "error": {
+      "noImage": "Please select a watermark image",
+      "saveFailed": "Failed to save watermark"
+    },
+    "success": {
+      "saved": "Watermark saved successfully"
+    }
+  },
+  "subtitles": {
+    "title": "Subtitles",
+    "embed": {
+      "title": "Embed Subtitles",
+      "description": "Permanently embed subtitles into your video",
+      "selectFile": "Select Subtitle File",
+      "embedButton": "Embed Subtitles",
+      "processing": "Processing...",
+      "noFile": "No subtitle file selected",
+      "note": "Important Notes",
+      "noteItem1": "Embedding subtitles is irreversible.",
+      "noteItem2": "SRT format subtitles are supported.",
+      "noteItem3": "Processing may take several minutes depending on video length."
+    },
+    "success": {
+      "uploaded": "Subtitle file uploaded",
+      "embedded": "Subtitles embedded successfully"
+    },
+    "error": {
+      "invalidFormat": "Invalid subtitle format. Please upload an .srt file",
+      "uploadFailed": "Subtitle upload failed",
+      "embedFailed": "Failed to embed subtitles",
+      "noFile": "Please select a subtitle file",
+      "noVideo": "Please upload a video first"
+    },
+    "applied": "Subtitles applied"
+  },
+  "storage": {
+    "title": "Storage Management",
+    "used": "Storage Used",
+    "videos": "Videos",
+    "local": "Local Storage",
+    "cloud": "Cloud Storage",
+    "cleanup": {
+      "title": "Cleanup Storage",
+      "description": "Remove unused files to free up space"
+    },
+    "configure": "Configure Storage",
+    "cloudSettings": "Cloud Settings",
+    "warnings": {
+      "localNearlyFull": "Local storage is nearly full"
+    }
+  },
+  "processing": {
+    "title": "Processing Monitor",
+    "activeJobs": "Active Jobs",
+    "noActiveJobs": "No active processing jobs",
+    "refreshJobs": "Refresh Jobs",
+    "job": {
+      "cancel": "Cancel Job",
+      "restart": "Restart Job"
+    },
+    "estimatedCompletion": "Est. completion",
+    "lastUpdated": "Last updated",
+    "quality": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "original": "Original"
+    }
+  },
+  "videos": {
+    "title": "Video Management",
+    "description": "Manage your videos and view analytics",
+    "management": {
+      "title": "Video Management",
+      "description": "Upload, process and manage your videos"
+    },
+    "analytics": {
+      "title": "Video Analytics",
+      "description": "View performance metrics for your videos",
+      "views": "Views",
+      "engagement": "Engagement",
+      "duration": "Duration",
+      "viewsToday": "Views Today",
+      "viewsThisWeek": "Views This Week",
+      "viewsThisMonth": "Views This Month"
+    },
+    "storage": {
+      "title": "Storage Statistics",
+      "description": "Monitor your storage usage",
+      "used": "Used Space",
+      "total": "Total Space",
+      "remaining": "Remaining Space",
+      "usagePercent": "Usage Percentage"
+    },
+    "categories": {
+      "title": "Video Categories",
+      "description": "Videos by category",
+      "all": "All",
+      "education": "Education",
+      "entertainment": "Entertainment",
+      "business": "Business",
+      "technology": "Technology",
+      "other": "Other"
+    },
+    "recentVideos": {
+      "title": "Recent Videos",
+      "description": "Your most recently uploaded videos",
+      "empty": "No videos found",
+      "viewAll": "View All"
+    },
+    "recent": {
+      "title": "Recent Videos",
+      "description": "Your most recently uploaded videos",
+      "empty": "No videos found",
+      "viewAll": "View All"
+    },
+    "thumbnail": "Thumbnail",
+    "duration": "Duration",
+    "createdAt": "Created At",
+    "openInNewTab": "Open in New Tab",
+    "edit": "Edit",
+    "delete": {
+      "title": "Delete Video",
+      "confirm": "Are you sure you want to delete this video?",
+      "success": "Video deleted successfully",
+      "error": "Error deleting video"
+    },
+    "detail": {
+      "title": "Video Details",
+      "titlePlaceholder": "Edit video title",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "status": {
+      "status": "Status",
+      "ready": "Ready",
+      "processing": "Processing",
+      "error": "Error",
+      "pending": "Pending",
+      "processed": "Processed",
+      "completed": "Completed",
+      "failed": "Failed"
+    },
+    "actions": {
+      "edit": "Edit Video",
+      "delete": "Delete Video",
+      "view": "View Video"
+    },
+    "messages": {
+      "deleteConfirm": "Are you sure you want to delete this video?",
+      "deleteSuccess": "Video deleted successfully",
+      "deleteError": "Error deleting video",
+      "editSuccess": "Video updated successfully",
+      "editError": "Error updating video"
+    },
+    "upload": {
+      "title": "Upload Video",
+      "description": "Upload videos from file or URL",
+      "fileTab": "Upload File",
+      "urlTab": "From URL",
+      "dragDrop": "Drag & drop your video here",
+      "browseFiles": "or click to browse files",
+      "upload": "Upload Video",
+      "uploading": "Uploading...",
+      "clear": "Clear",
+      "success": "Video uploaded successfully",
+      "invalidType": "Invalid file type. Please upload a video file",
+      "videoUrl": "Video URL",
+      "videoTitle": "Video Title",
+      "titlePlaceholder": "Enter a title for your video",
+      "processUrl": "Process from URL",
+      "processing": "Processing...",
+      "urlSuccess": "Video from URL processed successfully",
+      "urlError": "Please enter a valid URL and title",
+      "urlProcessError": "Error processing video from URL"
+    },
+    "processing": {
+      "title": "Video Processing",
+      "completed": "Video processing completed",
+      "error": "Video processing error",
+      "processAnother": "Process Another Video",
+      "options": "Processing Options",
+      "maintainQuality": "Maintain Quality",
+      "autoOptimize": "Auto Optimize",
+      "outputFormat": "Output Format",
+      "selectFormat": "Select format"
+    },
+    "download": {
+      "title": "Download Video",
+      "started": "Download started"
+    },
+    "error": {
+      "noVideo": "No video found to download"
+    },
+    "history": {
+      "title": "Video History"
+    },
+    "processing": {
+      "newVideo": "Process New Video"
+    },
+    "search": "Search videos...",
+    "source": {
+      "title": "Video Source",
+      "description": "Select the video source for the application",
+      "tabs": {
+        "sources": "Sources",
+        "advanced": "Advanced"
+      },
+      "sourceOptions": "Source Options",
+      "sourceOptionsDescription": "Choose where videos are fetched from",
+      "default": {
+        "title": "Default Source",
+        "description": "Sample videos included with the application"
+      },
+      "pexels": {
+        "title": "Pexels",
+        "description": "Stock videos from Pexels API",
+        "apiKeyLabel": "Pexels API Key",
+        "apiKeyPlaceholder": "Enter your Pexels API key",
+        "getApiKey": "Click to get a Pexels API key"
+      },
+      "youtube": {
+        "title": "YouTube",
+        "description": "Videos from YouTube API",
+        "apiKeyLabel": "YouTube API Key",
+        "apiKeyPlaceholder": "Enter your YouTube API key",
+        "getApiKey": "Click to get a YouTube API key"
+      },
+      "vimeo": {
+        "title": "Vimeo",
+        "description": "Videos from Vimeo API",
+        "apiKeyLabel": "Vimeo API Key",
+        "apiKeyPlaceholder": "Enter your Vimeo API key",
+        "getApiKey": "Click to get a Vimeo API key"
+      },
+      "custom": {
+        "title": "Custom API",
+        "description": "Use your own video API",
+        "urlLabel": "Custom API URL",
+        "urlPlaceholder": "https://api.example.com/videos",
+        "urlDescription": "Your API should return video data in JSON format"
+      },
+      "advanced": {
+        "title": "Advanced API Settings",
+        "description": "Configure API connection settings",
+        "timeout": "Timeout (ms)",
+        "retryCount": "Retry Count",
+        "cacheDuration": "Cache Duration (minutes)"
+      },
+      "testConnection": "Test Connection",
+      "testing": "Testing Connection",
+      "connectionSuccess": "API connection successful",
+      "connectionError": "API connection failed",
+      "saved": "Video source settings saved",
+      "saveError": "Failed to save video source settings",
+      "loadError": "Failed to load video source settings",
+      "urlRequired": "Custom API URL is required",
+      "apiKeyRequired": "API key is required"
+    }
+  },
+  "organization": {
+    "title": "Organization",
+    "manageMembers": "Manage Members",
+    "integrations": "Integrations",
+    "createOrJoin": "Create or Join Organization"
+  }
+}
